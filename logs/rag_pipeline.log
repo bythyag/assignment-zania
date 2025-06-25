@@ -1,0 +1,291 @@
+2025-06-25 23:25:38,876 - faiss.loader - INFO - Loading faiss.
+2025-06-25 23:25:38,906 - faiss.loader - INFO - Successfully loaded faiss.
+2025-06-25 23:25:38,910 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-25 23:25:39,430 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-25 23:25:39,430 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-25 23:25:43,433 - src.logger - INFO - Loaded embedding model: all-MiniLM-L6-v2 (dim: 384)
+2025-06-25 23:25:43,477 - src.logger - INFO - Initialized RAGPipeline
+2025-06-25 23:25:43,477 - src.logger - INFO - Loading existing processed data...
+2025-06-25 23:25:43,489 - src.logger - INFO - Loaded FAISS index from /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output/handbook_index.faiss
+2025-06-25 23:25:43,492 - src.logger - INFO - Loaded 62 chunks and index from /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output
+2025-06-25 23:25:43,492 - src.logger - INFO - Processing 4 questions...
+2025-06-25 23:25:43,492 - src.logger - INFO - Processing question 1/4: What is the name of the company?
+2025-06-25 23:25:43,843 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-25 23:25:45,744 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-25 23:25:45,751 - src.logger - INFO - Processed question: What is the name of the company?
+2025-06-25 23:25:45,751 - src.logger - INFO - Processing question 2/4: Who is the CEO of the company?
+2025-06-25 23:25:45,798 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-25 23:25:47,280 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-25 23:25:47,283 - src.logger - INFO - Processed question: Who is the CEO of the company?
+2025-06-25 23:25:47,283 - src.logger - INFO - Processing question 3/4: What is their vacation policy?
+2025-06-25 23:25:47,380 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-25 23:25:50,252 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-25 23:25:50,255 - src.logger - INFO - Processed question: What is their vacation policy?
+2025-06-25 23:25:50,256 - src.logger - INFO - Processing question 4/4: What is the termination policy?
+2025-06-25 23:25:50,330 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-25 23:25:52,738 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-25 23:25:52,744 - src.logger - INFO - Processed question: What is the termination policy?
+2025-06-25 23:25:52,749 - src.logger - INFO - Saved results to /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output/qa_results.json
+2025-06-25 23:26:24,537 - faiss.loader - INFO - Loading faiss.
+2025-06-25 23:26:24,566 - faiss.loader - INFO - Successfully loaded faiss.
+2025-06-25 23:26:24,569 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-25 23:26:25,088 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-25 23:26:25,088 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-25 23:26:29,162 - src.logger - INFO - Loaded embedding model: all-MiniLM-L6-v2 (dim: 384)
+2025-06-25 23:26:36,216 - faiss.loader - INFO - Loading faiss.
+2025-06-25 23:26:36,231 - faiss.loader - INFO - Successfully loaded faiss.
+2025-06-25 23:26:36,234 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-25 23:26:36,694 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-25 23:26:36,695 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-25 23:26:42,216 - src.logger - INFO - Loaded embedding model: all-MiniLM-L6-v2 (dim: 384)
+2025-06-25 23:26:42,243 - src.logger - INFO - Initialized RAGPipeline
+2025-06-25 23:26:42,244 - src.logger - INFO - Loading existing processed data...
+2025-06-25 23:26:42,248 - src.logger - INFO - Loaded FAISS index from /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output/handbook_index.faiss
+2025-06-25 23:26:42,248 - src.logger - INFO - Loaded 62 chunks and index from /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output
+2025-06-25 23:26:42,248 - src.logger - INFO - Processing 4 questions...
+2025-06-25 23:26:42,248 - src.logger - INFO - Processing question 1/4: What is the name of the company?
+2025-06-25 23:26:42,492 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-25 23:26:44,452 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-25 23:26:44,461 - src.logger - INFO - Processed question: What is the name of the company?
+2025-06-25 23:26:44,462 - src.logger - INFO - Processing question 2/4: Who is the CEO of the company?
+2025-06-25 23:26:44,592 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-25 23:26:46,477 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-25 23:26:46,481 - src.logger - INFO - Processed question: Who is the CEO of the company?
+2025-06-25 23:26:46,481 - src.logger - INFO - Processing question 3/4: What is their vacation policy?
+2025-06-25 23:26:46,640 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-25 23:26:51,724 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-25 23:26:51,740 - src.logger - INFO - Processed question: What is their vacation policy?
+2025-06-25 23:26:51,741 - src.logger - INFO - Processing question 4/4: What is the termination policy?
+2025-06-25 23:26:51,825 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-25 23:26:55,005 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-25 23:26:55,007 - src.logger - INFO - Processed question: What is the termination policy?
+2025-06-25 23:26:55,011 - src.logger - INFO - Saved results to /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output/qa_results.json
+2025-06-26 00:03:07,957 - faiss.loader - INFO - Loading faiss.
+2025-06-26 00:03:07,986 - faiss.loader - INFO - Successfully loaded faiss.
+2025-06-26 00:03:07,989 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-26 00:03:08,578 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-26 00:03:08,578 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-26 00:03:12,845 - src.logger - INFO - Loaded embedding model: all-MiniLM-L6-v2 (dim: 384)
+2025-06-26 00:03:12,912 - src.logger - INFO - Initialized RAGPipeline
+2025-06-26 00:03:12,928 - src.logger - INFO - Loaded FAISS index from /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output/handbook_index.faiss
+2025-06-26 00:03:12,928 - src.logger - INFO - Loaded 62 chunks and index from /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output
+2025-06-26 00:03:12,928 - src.logger - ERROR - Error processing question 'What is the name of the company?': 'EmbeddingGenerator' object has no attribute 'generate_embeddings'
+2025-06-26 00:03:12,928 - src.logger - ERROR - Pipeline execution failed: 'EmbeddingGenerator' object has no attribute 'generate_embeddings'
+2025-06-26 00:05:07,856 - faiss.loader - INFO - Loading faiss.
+2025-06-26 00:05:07,886 - faiss.loader - INFO - Successfully loaded faiss.
+2025-06-26 00:05:07,889 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-26 00:05:08,432 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-26 00:05:08,432 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-26 00:05:12,757 - src.logger - INFO - Loaded embedding model: all-MiniLM-L6-v2 (dim: 384)
+2025-06-26 00:05:12,956 - src.logger - INFO - Initialized RAGPipeline
+2025-06-26 00:05:12,960 - src.logger - INFO - Loaded FAISS index from /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output/handbook_index.faiss
+2025-06-26 00:05:12,960 - src.logger - INFO - Loaded 62 chunks and index from /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output
+2025-06-26 00:05:13,202 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 00:05:14,807 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 00:05:14,815 - src.logger - INFO - Processed question: What is the name of the company?
+2025-06-26 00:05:14,875 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 00:05:15,870 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 00:05:15,871 - src.logger - INFO - Processed question: Who is the CEO of the company?
+2025-06-26 00:05:15,955 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 00:05:19,584 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 00:05:19,586 - src.logger - INFO - Processed question: What is their vacation policy?
+2025-06-26 00:05:19,642 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 00:05:22,025 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 00:05:22,026 - src.logger - INFO - Processed question: What is the termination policy?
+2025-06-26 00:05:22,030 - src.logger - INFO - Saved results to /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output/qa_results.json
+2025-06-26 00:54:53,292 - faiss.loader - INFO - Loading faiss.
+2025-06-26 00:54:53,321 - faiss.loader - INFO - Successfully loaded faiss.
+2025-06-26 00:54:53,325 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-26 00:54:59,207 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-26 00:54:59,207 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-26 00:55:03,584 - src.logger - INFO - Loaded embedding model: all-MiniLM-L6-v2 (dim: 384)
+2025-06-26 00:55:03,636 - src.logger - INFO - Initialized RAGPipeline
+2025-06-26 00:55:03,648 - src.logger - INFO - Loaded FAISS index from /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output/handbook_index.faiss
+2025-06-26 00:55:03,648 - src.logger - INFO - Loaded 62 chunks and index from /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output
+2025-06-26 00:55:04,001 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 00:55:05,302 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 00:55:05,307 - src.logger - WARNING - Error calculating confidence with LLM: 'OpenAIClient' object has no attribute 'generate_response'
+2025-06-26 00:55:05,307 - src.logger - INFO - Processed question: What is the name of the company? (confidence: 0.40)
+2025-06-26 00:55:05,343 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 00:55:06,351 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 00:55:06,353 - src.logger - WARNING - Error calculating confidence with LLM: 'OpenAIClient' object has no attribute 'generate_response'
+2025-06-26 00:55:06,353 - src.logger - INFO - Processed question: Who is the CEO of the company? (confidence: 0.40)
+2025-06-26 00:55:06,425 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 00:55:08,563 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 00:55:08,565 - src.logger - WARNING - Error calculating confidence with LLM: 'OpenAIClient' object has no attribute 'generate_response'
+2025-06-26 00:55:08,565 - src.logger - INFO - Processed question: What is their vacation policy? (confidence: 0.86)
+2025-06-26 00:55:08,620 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 00:55:10,115 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 00:55:10,119 - src.logger - WARNING - Error calculating confidence with LLM: 'OpenAIClient' object has no attribute 'generate_response'
+2025-06-26 00:55:10,119 - src.logger - INFO - Processed question: What is the termination policy? (confidence: 0.86)
+2025-06-26 00:55:10,123 - src.logger - INFO - Saved results to /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output/qa_results.json
+2025-06-26 01:01:11,817 - faiss.loader - INFO - Loading faiss.
+2025-06-26 01:01:11,847 - faiss.loader - INFO - Successfully loaded faiss.
+2025-06-26 01:01:11,850 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-26 01:01:12,356 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-26 01:01:12,356 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-26 01:01:16,894 - src.logger - INFO - Loaded embedding model: all-MiniLM-L6-v2 (dim: 384)
+2025-06-26 01:01:16,949 - src.logger - INFO - Initialized RAGPipeline
+2025-06-26 01:01:16,964 - src.logger - INFO - Loaded FAISS index from /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output/handbook_index.faiss
+2025-06-26 01:01:16,964 - src.logger - INFO - Loaded 62 chunks and index from /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output
+2025-06-26 01:01:17,289 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:01:26,999 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 01:01:27,148 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:01:27,517 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:01:27,524 - src.logger - INFO - Processed question: What is the name of the company? (confidence: 0.29)
+2025-06-26 01:01:27,535 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:01:37,664 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 01:01:37,849 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:01:37,882 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:01:37,884 - src.logger - INFO - Processed question: Who is the CEO of the company? (confidence: 0.31)
+2025-06-26 01:01:37,953 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:01:39,581 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 01:01:39,612 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:01:39,635 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:01:39,635 - src.logger - INFO - Processed question: What is their vacation policy? (confidence: 0.65)
+2025-06-26 01:01:39,646 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:01:40,967 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 01:01:40,996 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:01:41,019 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:01:41,020 - src.logger - INFO - Processed question: What is the termination policy? (confidence: 0.68)
+2025-06-26 01:01:41,021 - src.logger - INFO - Saved results to /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output/qa_results.json
+2025-06-26 01:03:10,492 - faiss.loader - INFO - Loading faiss.
+2025-06-26 01:03:10,522 - faiss.loader - INFO - Successfully loaded faiss.
+2025-06-26 01:03:10,525 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-26 01:03:10,929 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-26 01:03:10,929 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-26 01:03:16,730 - src.logger - INFO - Loaded embedding model: all-MiniLM-L6-v2 (dim: 384)
+2025-06-26 01:03:16,876 - src.logger - INFO - Initialized RAGPipeline
+2025-06-26 01:03:16,880 - src.logger - INFO - Loaded FAISS index from /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output/handbook_index.faiss
+2025-06-26 01:03:16,880 - src.logger - INFO - Loaded 62 chunks and index from /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output
+2025-06-26 01:03:17,085 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:03:18,152 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 01:03:18,170 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:03:18,230 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:03:18,232 - src.logger - INFO - Processed question: What is the name of the company? (confidence: 0.29)
+2025-06-26 01:03:18,243 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:03:18,948 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 01:03:18,964 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:03:18,990 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:03:18,990 - src.logger - INFO - Processed question: Who is the CEO of the company? (confidence: 0.31)
+2025-06-26 01:03:19,042 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:03:20,642 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 01:03:20,703 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:03:20,730 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:03:20,731 - src.logger - INFO - Processed question: What is their vacation policy? (confidence: 0.65)
+2025-06-26 01:03:20,745 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:03:22,877 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 01:03:22,934 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:03:22,960 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:03:22,961 - src.logger - INFO - Processed question: What is the termination policy? (confidence: 0.68)
+2025-06-26 01:03:22,962 - src.logger - INFO - Saved results to /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output/qa_results.json
+2025-06-26 01:13:05,710 - faiss.loader - INFO - Loading faiss.
+2025-06-26 01:13:05,739 - faiss.loader - INFO - Successfully loaded faiss.
+2025-06-26 01:13:05,742 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-26 01:13:06,287 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-26 01:13:06,287 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-26 01:13:10,998 - src.logger - INFO - Loaded embedding model: all-MiniLM-L6-v2 (dim: 384)
+2025-06-26 01:13:11,054 - src.logger - INFO - Initialized RAGPipeline
+2025-06-26 01:13:11,067 - src.logger - INFO - Loaded FAISS index from /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output/handbook_index.faiss
+2025-06-26 01:13:11,067 - src.logger - INFO - Loaded 62 chunks and index from /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output
+2025-06-26 01:13:11,438 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:13:12,834 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 01:13:12,856 - src.logger - INFO - Processed question: What is the name of the company?
+2025-06-26 01:13:12,908 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:13:13,972 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 01:13:13,974 - src.logger - INFO - Processed question: Who is the CEO of the company?
+2025-06-26 01:13:14,066 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:13:17,285 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 01:13:17,289 - src.logger - INFO - Processed question: What is their vacation policy?
+2025-06-26 01:13:17,348 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:13:20,316 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 01:13:20,320 - src.logger - INFO - Processed question: What is the termination policy?
+2025-06-26 01:13:20,324 - src.logger - INFO - Saved results to /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output/qa_results.json
+2025-06-26 01:27:05,048 - faiss.loader - INFO - Loading faiss.
+2025-06-26 01:27:05,077 - faiss.loader - INFO - Successfully loaded faiss.
+2025-06-26 01:27:05,081 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-26 01:27:05,621 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-26 01:27:05,621 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-26 01:27:10,203 - src.logger - INFO - Loaded embedding model: all-MiniLM-L6-v2 (dim: 384)
+2025-06-26 01:27:10,246 - src.logger - INFO - Initialized RAGPipeline
+2025-06-26 01:27:10,255 - src.logger - INFO - Loaded FAISS index from /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output/handbook_index.faiss
+2025-06-26 01:27:10,255 - src.logger - INFO - Loaded 62 chunks and index from /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output
+2025-06-26 01:27:10,594 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:27:12,019 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 01:27:12,030 - src.logger - INFO - Processed question: What is the name of the company?
+2025-06-26 01:27:12,082 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:27:13,040 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 01:27:13,042 - src.logger - INFO - Processed question: Who is the CEO of the company?
+2025-06-26 01:27:13,127 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:27:14,110 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 01:27:14,113 - src.logger - INFO - Processed question: What is their vacation policy?
+2025-06-26 01:27:14,144 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:27:15,500 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 01:27:15,503 - src.logger - INFO - Processed question: What is the termination policy?
+2025-06-26 01:27:15,509 - src.logger - INFO - Saved results to /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output/qa_results.json
+2025-06-26 01:29:00,000 - faiss.loader - INFO - Loading faiss.
+2025-06-26 01:29:00,035 - faiss.loader - INFO - Successfully loaded faiss.
+2025-06-26 01:29:00,038 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-26 01:29:00,543 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-26 01:29:00,544 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-26 01:29:04,614 - src.logger - INFO - Loaded embedding model: all-MiniLM-L6-v2 (dim: 384)
+2025-06-26 01:29:04,654 - src.logger - INFO - Initialized RAGPipeline
+2025-06-26 01:29:04,662 - src.logger - INFO - Loaded FAISS index from /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output/handbook_index.faiss
+2025-06-26 01:29:04,662 - src.logger - INFO - Loaded 62 chunks and index from /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output
+2025-06-26 01:29:04,899 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:29:06,505 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 01:29:06,513 - src.logger - INFO - Processed question: What is the name of the company?
+2025-06-26 01:29:06,582 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:29:07,335 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 01:29:07,338 - src.logger - INFO - Processed question: Who is the CEO of the company?
+2025-06-26 01:29:07,422 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:29:10,803 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 01:29:10,807 - src.logger - INFO - Processed question: What is their vacation policy?
+2025-06-26 01:29:10,864 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:29:13,053 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 01:29:13,056 - src.logger - INFO - Processed question: What is the termination policy?
+2025-06-26 01:29:13,061 - src.logger - INFO - Saved results to /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output/qa_results.json
+2025-06-26 01:38:37,831 - faiss.loader - INFO - Loading faiss.
+2025-06-26 01:38:37,859 - faiss.loader - INFO - Successfully loaded faiss.
+2025-06-26 01:38:37,863 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-26 01:38:38,370 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-26 01:38:38,370 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-26 01:38:42,842 - src.logger - INFO - Loaded embedding model: all-MiniLM-L6-v2 (dim: 384)
+2025-06-26 01:38:43,013 - src.logger - INFO - Initialized RAGPipeline
+2025-06-26 01:38:43,021 - src.logger - INFO - Loaded FAISS index from /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output/handbook_index.faiss
+2025-06-26 01:38:43,021 - src.logger - INFO - Loaded 62 chunks and index from /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output
+2025-06-26 01:38:43,292 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:38:44,339 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 01:38:44,344 - src.logger - INFO - Processed question: What is the name of the company?
+2025-06-26 01:38:44,367 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:38:45,160 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 01:38:45,163 - src.logger - INFO - Processed question: Who is the CEO of the company?
+2025-06-26 01:38:45,247 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:38:48,507 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 01:38:48,511 - src.logger - INFO - Processed question: What is their vacation policy?
+2025-06-26 01:38:48,621 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 01:38:50,904 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 01:38:50,907 - src.logger - INFO - Processed question: What is the termination policy?
+2025-06-26 01:38:50,912 - src.logger - INFO - Saved results to /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output/qa_results.json
+2025-06-26 02:16:52,055 - faiss.loader - INFO - Loading faiss.
+2025-06-26 02:16:52,085 - faiss.loader - INFO - Successfully loaded faiss.
+2025-06-26 02:16:52,088 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-06-26 02:16:52,629 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: mps
+2025-06-26 02:16:52,629 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-26 02:16:58,305 - src.logger - INFO - Loaded embedding model: all-MiniLM-L6-v2 (dim: 384)
+2025-06-26 02:16:58,501 - src.logger - INFO - Initialized RAGPipeline
+2025-06-26 02:16:58,515 - src.logger - INFO - Loaded FAISS index from /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output/handbook_index.faiss
+2025-06-26 02:16:58,515 - src.logger - INFO - Loaded 62 chunks and index from /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output
+2025-06-26 02:16:58,875 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 02:17:00,297 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 02:17:00,304 - src.logger - INFO - Processed question: What is the name of the company?
+2025-06-26 02:17:00,381 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 02:17:01,317 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 02:17:01,318 - src.logger - INFO - Processed question: Who is the CEO of the company?
+2025-06-26 02:17:01,399 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 02:17:04,768 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 02:17:04,782 - src.logger - INFO - Processed question: What is their vacation policy?
+2025-06-26 02:17:04,847 - src.logger - INFO - Generated embeddings for 1 texts
+2025-06-26 02:17:08,483 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-26 02:17:08,486 - src.logger - INFO - Processed question: What is the termination policy?
+2025-06-26 02:17:08,489 - src.logger - INFO - Saved results to /Users/thyag/Desktop/Assignement/assignment-zania/dataset/rag_output/qa_results.json
