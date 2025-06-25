@@ -1,5 +1,7 @@
 ## Zania Assignment - RAG Question Answering System
 
+[Video Demo](https://drive.google.com/drive/folders/16A7uf3AgjSztUokHEF3taMF7ogGA1FC8?usp=sharing)
+
 A RAG system that processes PDF documents and answers questions using OpenAI's GPT models and local embedding search.
 
 GPT Model used in the project: ```gpt-4o-mini```
