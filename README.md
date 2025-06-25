@@ -7,20 +7,20 @@ Local Embedding model used in the project: ```all-MiniLM-L6-v2```
 
 ### current features
 
-1. PDF Processing: Extract and convert PDF texts to markdown format to maintain document structure. 
-2. Text chunking: Splits document into overlapping chunks. 
-3. Semantic Search: Use FAISS for indexing and vector similarity search on local machine.
-4. Question Answering: Uses OpenAI model to answer questions based on the retrieved contents.
+1. **PDF Processing:** Extract and convert PDF texts to markdown format to maintain document structure. 
+2. **Text chunking:** Splits document into overlapping chunks. 
+3. **Semantic Search:** Use FAISS for indexing and vector similarity search on local machine.
+4. **Question Answering:** Uses OpenAI model to answer questions based on the retrieved contents.
 
 ### Thoughts on improvements
 
 1. One of the ways we improved the document processing is through the ```async``` method while looping though the list of questions and also during document chunking and indexing. 
-2. To futher improve on the confidence of the answer we can do the following:
-    a. We introduce an agent that can compare the question and the answer to make sure on the relevancy of the answer, or otherwise return 'No Data Found'
-    b. We can also filter the texts using cosine similarity score to only pass similar documents with certain threshold. 
+2. To further improve on the confidence of the answer we can do the following:
+    1. Add a relevancy agent that can compare the question and the answer to make sure on the relevancy of the answer, or otherwise return 'No Data Found'
+    2. We can also filter the texts using cosine similarity score to only pass similar documents with certain threshold. 
 3. The project is designed to run locally, but for scaling purpose we can use OpenAI Embedding model and MongoDB or Pinecone vector database.
 4. Introduce more agents for sub query generation on each question to get more related documents. 
-5. Combine exact word matching and semantic similarity for improved document retrival. 
+5. Combine exact word matching and semantic similarity for improved document retrieval. 
 6. Use multiple models for fallback such that we don't face any downtime during the production.
 
 ### Thoughts on code
@@ -29,6 +29,10 @@ Local Embedding model used in the project: ```all-MiniLM-L6-v2```
 3. Separate python file consisting of all the file paths across the codebase. 
 4. Separate python file for different features and functions.
 
+### Entry Points
+- **app.py**: Simplified entry point with predefined questions and PDF path for easy interpretation and quick testings.
+- **main.py**: Core application logic that app.py imports. Use it for custom implementations during the RAG process.
+- **Relationship**: app.py imports and calls main.py with hardcoded parameters, while main.py accepts configurable inputs
 
 ### How to use
 
@@ -79,8 +83,8 @@ A3: Zania, Inc. provides paid vacation to all full-time regular employees...
 ### Notes on file directory 
 
 1. Run the ```app.py``` file with list of questions and pdf document. 
-2. ```main.py``` can also be used but (1) is more simplified for usage.
+2. ```main.py``` can also be used but (1) is more simplified and cleaner in usage.
 3. The core modules are present in ```src/``` directory. 
-4. ```notebook/``` contains experiemens on design and implementation. 
+4. ```notebook/``` contains experiments on design and implementation. 
 5. ```dataset/```directory contains original dataset and parsed md dataset. 
-5. ```logs``` contains track of all the intermediate activites. 
+5. ```logs/``` contains track of all the intermediate activites. 
