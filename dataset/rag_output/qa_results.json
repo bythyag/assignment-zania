@@ -55,7 +55,7 @@
       }
     ],
     "num_sources": 5,
-    "timestamp": "2025-06-26T02:17:00.304122"
+    "timestamp": "2025-06-26T02:28:28.849074"
   },
   {
     "question": "Who is the CEO of the company?",
@@ -113,7 +113,7 @@
       }
     ],
     "num_sources": 5,
-    "timestamp": "2025-06-26T02:17:01.318741"
+    "timestamp": "2025-06-26T02:28:29.759792"
   },
   {
     "question": "What is their vacation policy?",
@@ -171,11 +171,11 @@
       }
     ],
     "num_sources": 5,
-    "timestamp": "2025-06-26T02:17:04.782145"
+    "timestamp": "2025-06-26T02:28:33.752556"
   },
   {
     "question": "What is the termination policy?",
-    "answer": "Your employment with Zania, Inc. is on an \"at-will\" basis. This means your employment may be terminated at any time, with or without notice and with or without cause. The Company is not required to engage in progressive discipline and may discipline or terminate employees who violate the rules of conduct, or where the quality or value of their work fails to meet expectations at any time. Understand that while the Company is concerned with consistent enforcement of our policies, we are not obligated to follow any disciplinary or grievance procedure and, depending on the circumstances, you may be disciplined or terminated without any prior warning or procedure.",
+    "answer": "Your employment with Zania, Inc. is on an \"at-will\" basis. This means your employment may be terminated at any time, with or without notice and with or without cause. The Company is not required to engage in progressive discipline and may discipline or terminate employees who violate the rules of conduct, or where the quality or value of their work fails to meet expectations at any time.",
     "sources": [
       {
         "chunk_id": 13,
@@ -229,6 +229,6 @@
       }
     ],
     "num_sources": 5,
-    "timestamp": "2025-06-26T02:17:08.485955"
+    "timestamp": "2025-06-26T02:28:36.824096"
   }
 ]
